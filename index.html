@@ -40,7 +40,7 @@
         #main-content { display: flex; justify-content: center; align-items: center; height: 100vh; padding: 20px; position: relative; z-index: 10; }
         .profile-card { background: var(--glass); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.1); border-radius: 20px; padding: 40px; text-align: center; max-width: 500px; width: 100%; box-shadow: 0 20px 50px rgba(0,0,0,0.5); }
         
-        /* === AVATAR STYLE === */
+        /* === AVATAR STYLE (FIXED FOR BACKGROUND PIC TRICK) === */
         .avatar-container { width: 150px; height: 150px; margin: 0 auto 25px; position: relative; border-radius: 50%; padding: 5px; background: linear-gradient(45deg, var(--neon), transparent); }
         .avatar { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; border: 3px solid #000; }
         
@@ -61,21 +61,18 @@
 
     <canvas id="canvas"></canvas>
 
-    <!-- INTRO SPLASH SCREEN -->
     <div id="intro">
-        <h1 class="intro-text">CHAMPION GUPTA</h1>
+        <h1 class="intro-text">CHAMPION</h1>
         <button class="click-me-btn" onclick="startExperience()">Enter Experience</button>
     </div>
 
-    <!-- MAIN PORTFOLIO CARD -->
     <div id="main-content">
         <div class="profile-card">
             <div class="avatar-container">
-                <!-- 🎯 TUHADI PHOTO DA CODE ETHE SET KAR DITA HAI -->
                 <img src="95ef2892f817fa96a77de279cea784c6.jpg" alt="CHAMPION" class="avatar">
             </div>
             <h1 class="name">HI, I'M CHAMPION</h1>
-            <p class="title">UI/UX Designer & Developer</p>
+            <p class="title">UI/UX Designer & Web Dev</p>
             <p class="bio">I'm a passionate self-taught developer who loves building creative digital experiences. I enjoy creating websites, Telegram bots, modern UI designs, and interactive web applications.</p>
             
             <div class="social-links">
